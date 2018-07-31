@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djongo = "*"
+django-redis = "*"
+
+[dev-packages]
+ipython = "*"
+gunicorn = "*"
+
+[requires]
+python_version = "3.6"
